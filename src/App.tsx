@@ -1,19 +1,21 @@
 import { Heading } from "./components/Heading";
 import { Timer } from "lucide-react";
+import { Container } from "./components/Container";
 
 import "./styles/theme.css";
 import "./styles/global.css";
 
 function App() {
     return (
-        <div>
-            <Heading>
-                Olá, mundo!
-                <button>
-                    <Timer size={20} />
-                </button>
-            </Heading>
-        </div>
+        <>
+            <Container>
+                <Heading> LOGO</Heading>
+            </Container>
+
+            <Container>
+                <Heading> MENU</Heading>
+            </Container>
+        </>
     );
 }
 
